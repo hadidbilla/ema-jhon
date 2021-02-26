@@ -1,0 +1,9 @@
+.cart-butn {
+  width: 140px;
+  padding: 5px 0px;
+  background-color: goldenrod;
+  border: 1px solid rgb(87, 85, 85);
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
