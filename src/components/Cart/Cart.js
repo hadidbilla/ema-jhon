@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./Cart.css";
 
 function Cart(props) {
@@ -23,9 +24,6 @@ function Cart(props) {
         <h3>Order Items: {cart.length}</h3>
       </div>
       <div className="second">
-        {/* <p>
-          Item: <span>{}</span>
-        </p> */}
         <p>
           Shipping and Handling: <span>{shipping}</span>
         </p>
@@ -39,7 +37,8 @@ function Cart(props) {
       <h4>
         Order Total: <span>{grandTotal}</span>
       </h4>
-      <button className="cart-butn">Review your Order</button>
+      <br />
+      {props.children}
     </div>
   );
 }
